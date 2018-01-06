@@ -20,4 +20,4 @@ Please see [CHANGELOG](https://github.com/mohd-isa/carbon/blob/master/CHANGELOG.
 * [All Contributors](https://github.com/mohd-isa/carbon/graphs/contributors)
 
 ## License
-The [MIT License (MIT)](https://github.com/mohd-isa/carbon/blob/master/LICENSE.md). Please see License File for more information.
+The [MIT License (MIT)](https://github.com/mohd-isa/carbon/blob/master/LICENSE). Please see License File for more information.
