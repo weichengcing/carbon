@@ -9910,8 +9910,8 @@ a.text-dark:hover {
 .sidebar .nav-title {
   font-size: 80%;
   text-transform: uppercase;
-  padding: 16px 24px;
-  color: #c4c3c3;
+  padding: 0.8rem 1rem;
+  color: #777777;
 }
 
 .sidebar .nav-dropdown.open .nav-dropdown-items {

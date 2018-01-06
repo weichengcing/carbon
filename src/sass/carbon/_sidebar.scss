@@ -71,7 +71,7 @@
     font-size: $small-font-size;
     text-transform: uppercase;
     padding: $sidebar-nav-title-padding-y $sidebar-nav-title-padding-x;
-    color: $sidebar-nav-title-color;
+    color: darken($sidebar-nav-title-color, 30%);
   }
 
   .nav-dropdown.open {
