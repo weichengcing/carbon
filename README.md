@@ -7,7 +7,7 @@ Carbon is a free admin template based on Bootstrap 4. More updates are coming!
 Demo is available at [Carbon](http://carbon.smartisan.io)
 
 ## Documentation
-Documentation will be available soon. 
+Visit [repository wiki](https://github.com/mohd-isa/carbon/wiki/Installation) for the documentation.
 
 ## Bugs and Features
 If you have any bug or wish to request a feature, please open an [issue](https://github.com/mohd-isa/carbon/issues)
