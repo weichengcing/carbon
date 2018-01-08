@@ -16,5 +16,20 @@
     "laravel-mix": "^1.7.2",
     "popper.js": "^1.12.9",
     "simple-line-icons": "^2.4.1"
-  }
+  },
+  "name": "carbon-admin",
+  "description": "Carbon is a free admin template based on Bootstrap 4",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohd-isa/carbon.git"
+  },
+  "author": "Mohammed Isa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohd-isa/carbon/issues"
+  },
+  "homepage": "https://github.com/mohd-isa/carbon#readme"
 }
