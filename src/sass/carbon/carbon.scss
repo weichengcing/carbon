@@ -45,6 +45,7 @@
 /**
  * Carbon
  */
+@import "mixins";
 @import "layout";
 @import "sidebar";
 @import "header";
@@ -56,4 +57,5 @@
 @import "navbar";
 @import "utilities";
 @import "avatars";
+@import "switches";
 @import "reboot";
