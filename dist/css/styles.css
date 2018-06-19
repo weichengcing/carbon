@@ -11214,6 +11214,37 @@ i.fas {
   margin: 0;
 }
 
+input[type=checkbox].form-control,
+input[type=radio].form-control {
+  display: none;
+}
+
+input[type=checkbox].form-control + label,
+input[type=radio].form-control + label {
+  margin-right: 0.5rem;
+}
+
+input[type=checkbox].form-control + label::before,
+input[type=radio].form-control + label::before {
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  margin-right: .5rem;
+  content: "\F0C8";
+}
+
+input[type=checkbox].form-control:checked + label::before,
+input[type=radio].form-control:checked + label::before {
+  content: "\F14A";
+}
+
+input[type=radio].form-control + label::before {
+  content: "\F111";
+}
+
+input[type=radio].form-control:checked + label::before {
+  content: "\F192";
+}
+
 @media (max-width: 767.98px) {
   .content {
     padding: 0;

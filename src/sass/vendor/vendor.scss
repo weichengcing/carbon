@@ -76,6 +76,31 @@ i.fas {
     margin: 0;
 }
 
+input[type=checkbox].form-control,
+input[type=radio].form-control {
+    display: none;
+    &+label {
+        margin-right: 0.5rem;
+        &::before {
+            display: inline-block;
+            font-family: 'Font Awesome\ 5 Free';
+            margin-right: .5rem;
+            content: "\f0c8";
+        }
+    }
+    &:checked+label::before {
+        content: "\f14a";
+    }
+}
+
+input[type=radio].form-control+label::before {
+    content: "\f111";
+}
+
+input[type=radio].form-control:checked+label::before {
+    content: "\f192";
+}
+
 @include media-breakpoint-down('sm') {
     .content {
         padding: 0;
