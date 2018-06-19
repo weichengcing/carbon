@@ -10393,6 +10393,11 @@ a.text-dark:focus {
   position: relative;
 }
 
+.sidebar .nav-item i:first-child:not(.fa-caret-left) {
+  color: #42a5f5;
+  margin-right: 0.5rem;
+}
+
 .sidebar .nav-link {
   display: block;
   text-decoration: none;
@@ -10427,11 +10432,6 @@ a.text-dark:focus {
   float: right;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-.sidebar .nav-dropdown-toggle i:first-child:not(.fa-caret-left) {
-  color: #42a5f5;
-  margin-right: 0.5rem;
 }
 
 .sidebar .nav-title {
@@ -11200,6 +11200,18 @@ fieldset legend {
   font-weight: bold;
   padding-right: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+i.fa,
+i.far,
+i.fas {
+  width: 1rem;
+}
+
+.page-header .navbar-nav .dropdown-item .badge {
+  position: static;
+  top: 0;
+  margin: 0;
 }
 
 @media (max-width: 767.98px) {

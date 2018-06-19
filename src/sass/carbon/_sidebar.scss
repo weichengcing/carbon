@@ -24,6 +24,10 @@
   .nav-item {
     width: 100%;
     position: relative;
+    i:first-child:not(.fa-caret-left) {
+      color: $blue;
+      margin-right: 0.5rem;
+    }
   }
   .nav-link {
     display: block;
@@ -53,10 +57,6 @@
     i:last-of-type {
       float: right;
       transition: all 0.3s;
-    }
-    i:first-child:not(.fa-caret-left) {
-      color: $blue;
-      margin-right: 0.5rem;
     }
   }
   .nav-title {
