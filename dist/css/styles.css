@@ -10396,14 +10396,13 @@ a.text-dark:focus {
 .sidebar .nav-link {
   display: block;
   text-decoration: none;
-  padding: 16px 24px;
+  padding: 16px 1rem;
   color: #9d9d9d;
 }
 
 .sidebar .nav-link i:first-of-type {
   display: inline-block;
-  width: 24px;
-  margin-right: 4px;
+  width: 1rem;
   color: #c4c3c3;
   font-size: 14px;
 }
@@ -10426,7 +10425,13 @@ a.text-dark:focus {
 
 .sidebar .nav-dropdown-toggle i:last-of-type {
   float: right;
-  margin-top: 4px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sidebar .nav-dropdown-toggle i:first-child:not(.fa-caret-left) {
+  color: #42a5f5;
+  margin-right: 0.5rem;
 }
 
 .sidebar .nav-title {
@@ -10436,12 +10441,13 @@ a.text-dark:focus {
   color: #777777;
 }
 
-.sidebar .nav-dropdown.open .nav-dropdown-items {
+.sidebar .nav-dropdown.open > .nav-dropdown-items {
+  padding-left: 1rem;
   max-height: 1000px !important;
   background-color: #1f1f1f;
 }
 
-.sidebar .nav-dropdown.open .nav-dropdown-toggle i:last-of-type {
+.sidebar .nav-dropdown.open > .nav-dropdown-toggle i:last-of-type {
   -webkit-transform: rotate(270deg);
           transform: rotate(270deg);
 }
