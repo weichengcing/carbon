@@ -18,6 +18,10 @@ a:not([href]):not([tabindex]) {
     }
 }
 
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
 i.fa {
     width: 1rem;
 }
@@ -35,7 +39,7 @@ i.fa {
         &.label-#{$color} {
             color: #{$value};
             border: 1px solid #{$value};
-            padding: 0.1rem;
+            padding: 0.1rem 0.4rem;
             display: inline-block;
             margin-right: 0.1rem;
         }

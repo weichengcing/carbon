@@ -11101,6 +11101,10 @@ a:not([href]):not([tabindex]).btn-outline-dark:hover {
   color: #ffffff;
 }
 
+.font-weight-bold {
+  font-weight: bold !important;
+}
+
 i.fa {
   width: 1rem;
 }
@@ -11115,7 +11119,7 @@ i.fa {
 .label.label-primary {
   color: #42a5f5;
   border: 1px solid #42a5f5;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11123,7 +11127,7 @@ i.fa {
 .label.label-secondary {
   color: #aaa;
   border: 1px solid #aaa;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11131,7 +11135,7 @@ i.fa {
 .label.label-success {
   color: #9ccc65;
   border: 1px solid #9ccc65;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11139,7 +11143,7 @@ i.fa {
 .label.label-info {
   color: #26c6da;
   border: 1px solid #26c6da;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11147,7 +11151,7 @@ i.fa {
 .label.label-warning {
   color: #ffca28;
   border: 1px solid #ffca28;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11155,7 +11159,7 @@ i.fa {
 .label.label-danger {
   color: #ef5350;
   border: 1px solid #ef5350;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11163,7 +11167,7 @@ i.fa {
 .label.label-light {
   color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
@@ -11171,7 +11175,7 @@ i.fa {
 .label.label-dark {
   color: #444;
   border: 1px solid #444;
-  padding: 0.1rem;
+  padding: 0.1rem 0.4rem;
   display: inline-block;
   margin-right: 0.1rem;
 }
