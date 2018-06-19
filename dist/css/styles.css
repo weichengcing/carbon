@@ -11222,7 +11222,7 @@ fieldset legend {
 
   .rwd-table-dispersion tbody tr td {
     padding: 0;
-    padding: 0.4em;
+    padding: 0.4rem;
     padding-left: 4.5rem;
     position: relative;
   }
@@ -11235,7 +11235,7 @@ fieldset legend {
     position: absolute;
     font-weight: bold;
     left: 0;
-    top: 0;
+    top: 0.4rem;
   }
 
   .rwd-table-dispersion tbody tr td:nth-last-child(1) {

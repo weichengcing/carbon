@@ -80,7 +80,7 @@ fieldset {
             }
             tr td {
                 padding: 0;
-                padding: 0.4em;
+                padding: 0.4rem;
                 padding-left: 4.5rem;
                 position: relative;
                 &::before {
@@ -91,7 +91,7 @@ fieldset {
                     position: absolute;
                     font-weight: bold;
                     left: 0;
-                    top: 0;
+                    top: 0.4rem;
                 }
                 &:nth-last-child(1) {
                     border-bottom: 4px double #cbcbcb;
