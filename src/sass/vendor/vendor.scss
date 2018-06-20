@@ -100,10 +100,10 @@ input[type=radio].form-control:checked+label::before {
 i.fa,
 i.far,
 i.fas {
-    width: 1rem;
+    width: 1em;
 }
 
-.fa {
+i.fa {
     &-lg {
         font-size: 1.33333em;
         line-height: .75em;
