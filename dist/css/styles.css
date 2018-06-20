@@ -11202,12 +11202,6 @@ fieldset legend {
   margin-bottom: 0.5rem;
 }
 
-i.fa,
-i.far,
-i.fas {
-  width: 1rem;
-}
-
 .page-header .navbar-nav .dropdown-item .badge {
   position: static;
   top: 0;
@@ -11243,6 +11237,68 @@ input[type=radio].form-control + label::before {
 
 input[type=radio].form-control:checked + label::before {
   content: "\F192";
+}
+
+/*fontawesome*/
+
+i.fa,
+i.far,
+i.fas {
+  width: 1rem;
+}
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: .75em;
+  vertical-align: -.0667em;
+}
+
+.fa-xs {
+  font-size: .75em;
+}
+
+.fa-sm {
+  font-size: .875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
 }
 
 @media (max-width: 767.98px) {
