@@ -11184,6 +11184,7 @@ fieldset {
   margin-top: 0.5rem;
   border-top: 1px solid #aaa;
   padding-left: 1rem;
+  position: relative;
 }
 
 @media (max-width: 767.98px) {
@@ -11200,6 +11201,14 @@ fieldset legend {
   font-weight: bold;
   padding-right: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+fieldset .legend_btn {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  top: -0.2rem;
+  background-color: #ffffff;
 }
 
 .page-header .navbar-nav .dropdown-item .badge {
